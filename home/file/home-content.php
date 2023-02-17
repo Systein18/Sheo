@@ -2,7 +2,7 @@
     <div class="row">
         <div class="hr">
             <?php
-                $sql = "SELECT id,name FROM tbl_category WHERE status = 1 LIMIT 0,15";
+                $sql = "SELECT id,name FROM tbl_category WHERE status = 1 LIMIT 0,20";
                 $rs = $cn->query($sql);
                 while($row = $rs->fetch_array()){
                     ?>
